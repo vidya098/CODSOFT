@@ -25,7 +25,7 @@
 
 .logo{
     font-size: 15px;
-    color:rgb(1, 15, 20);
+    color:rgb(76, 119, 135);
     text-decoration: none;
     font-weight:bold;
     margin-left: 10px;
@@ -135,4 +135,22 @@ img {
 }
 .btn:hover{
     box-shadow: none;
+}
+.footerBotton{
+  
+   
+    background:transparent;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+   
+    
+    
+}
+p{
+    padding-left: 4px;
+    margin:10;
 }
