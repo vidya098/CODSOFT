@@ -1,0 +1,52 @@
+body{
+    margin:0;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height:100vh;
+
+}
+#container{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(107, 146, 188);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow:hidden;
+
+}
+#butttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px;
+    padding:25px;
+}
+#display{
+    width:100%;
+    padding:20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: rgb(19, 214, 240);
+
+}
+
+button{
+    width:100px;
+    height:100px;
+    border-radius: 50px;
+    border:none;
+    background-color: rgb(127, 255, 238);
+    color: rgb(14, 1, 1);
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(234, 232, 230);
+}
+button:active{
+    background-color:rgb(156, 156, 159);
+}
+.operator{
+    background-color: rgb(11, 231, 247);
+}
